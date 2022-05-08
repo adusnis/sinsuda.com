@@ -1,15 +1,76 @@
 body {
-    text-align: center;
-    font-family: 'Kanit';
+  text-align: center;
+  font-family: "Kanit";
 }
-body, html {
-    height: 100%;
+.header {
+  text-align: left;
+  padding: 10px;
+  font-size: 30px;
+  background: #02002d;
+  color: white;
+}
+img {
+    display: block;
+    margin: 0 auto;
   }
-  
-.bg {
-    background-image: url('https://lh3.googleusercontent.com/_wvqLGml27HDgevyUXZ3RRA_iHXmI9K4bAl5noAKT4pZI3ieVC5h8wlJX-XdanTfRcNUnA6V4Z4D43GoloelQrN5FsARtKHp1TooVdggbJE0iuBjP8pkr9V_S2eJ1B_yTni2gt-1LYq7cMEhaUJvWCVSgEHj08xokt6TVkc-vmwuke8QN0m1XxbiXY-cVUfuEoymrqy-BCN36FhEwn8VDpvhkuQaxttKr8gBo8vqSi8dq9PLJv9aPIPF4GEo_S7l5pAJoCeNpkol45Plfk7vD-SOY5o3u_jNUWMfjp3OR-ZG7C-9vZOxPxVHomuW8m0IxHEJL9fqADGm4DAL05UCamL2cnGw07r9f93Ua63y0yVkvDA_cUjG0-GTYRuPxftmCo4BEbUm9gUD1oP_RobF6qKvVanvc1rftCGC80nFir6OKDCjzj9kY8spW1iXVSFEhKVw3apGIgKNoOipWLF9frVeJfeySODbGs4acm-keEArvXBiYe0CshusrDFF5tGs3emUulE0xkr_6x0DtfAcMSlnC066XB7m6KEuQqiBIZx6wiA5deikCQtw_6Y2_MFigy8a5kzEYb9E6SGP707cleo0IXGoznh4y1NhvYup6kFaDiKuXT8a_1cUlz_EO30wo5NypTojmowamr59g-9N7FGofBbnTguFt7t7PIdh2F4H_0EdKUR0sdybi7ALNk2g0qPy2fFgutRxysefyWRtXTvoHovsSVLhLSWr22utXclnpL6Jqxtjm1pdrAV63441r2_kiRB1aNi6v_Ei0WCkbT0yDvxQ-viHDnkq=w1292-h969-no?authuser=0.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.box {
+    height: 100 px;
+    width: 200 px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: "Kanit";
+}
+.bio{
+    background-color: #2ecda0;   
+}
+.bio-box{
+    font-size: 25px;
+    margin: 5px;
+}
+.project{
+    border-top: 10px solid #a90057;
+    border-bottom: 10px solid #a90057;
+    background-color: #57002d;
+}
+.projects-box{
+    border: 3px solid white;
+    font-size: 25px;
+    margin: 5px;
+}
+.project-box:hover{
+    opacity: 0.7;
+}
+footer {
+  background-color: #02002d;
+  color: white;
+  text-align: center;
+  font-family: "Kanit";
+  font-size: 16px;
+  padding: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #02002d;
+}
+
+.fa-instagram {
+  background: white;
+  color: #02002d;
 }

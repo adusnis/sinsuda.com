@@ -6,7 +6,7 @@ body {
   text-align: left;
   padding: 10px;
   font-size: 30px;
-  background: #02002d;
+  background: #57002d;
   color: white;
 }
 img {
@@ -31,11 +31,10 @@ img {
 }
 .project{
     border-top: 10px solid #a90057;
-    border-bottom: 10px solid #a90057;
-    background-color: #57002d;
+    background-color: #060000;
 }
 .projects-box{
-    border: 3px solid white;
+    border: 3px solid #a90057;
     font-size: 25px;
     margin: 5px;
 }
@@ -43,7 +42,7 @@ img {
     opacity: 0.7;
 }
 footer {
-  background-color: #02002d;
+  background-color: #57002d;
   color: white;
   text-align: center;
   font-family: "Kanit";
@@ -67,12 +66,17 @@ footer {
 
 .fa-facebook {
   background: white;
-  color: #02002d;
+  color: #57002d;
 }
 
 .fa-instagram {
   background: white;
-  color: #02002d;
+  color: #57002d;
+}
+
+.fa-github {
+  background: white;
+  color: #57002d; 
 }
 .box404 {
   position: fixed;

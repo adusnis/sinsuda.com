@@ -3,11 +3,20 @@ body {
   font-family: "Kanit";
 }
 .header {
-  text-align: left;
+  text-align: right;
   padding: 10px;
   font-size: 30px;
   background: #57002d;
   color: white;
+}
+select {
+  background: #57002d;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  display:inline-block;
+  margin-right:20px;
 }
 img {
     display: block;
@@ -31,11 +40,12 @@ img {
 }
 .project{
     border-top: 10px solid #a90057;
-    background-color: #060000;
+    background-color: #000000;
 }
 .projects-box{
-    border: 3px solid #a90057;
-    font-size: 25px;
+    border: 3px solid #ffffff;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     margin: 5px;
 }
 .projects-box:hover {
@@ -47,7 +57,7 @@ footer {
   text-align: center;
   font-family: "Kanit";
   font-size: 16px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .fa {

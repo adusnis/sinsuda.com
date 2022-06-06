@@ -43,9 +43,7 @@ img {
     background-color: #000000;
 }
 .projects-box{
-    border: 3px solid #ffffff;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 34, 255);
     margin: 5px;
 }
 .projects-box:hover {

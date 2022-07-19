@@ -1,3 +1,6 @@
+h1{
+  margin-bottom: 20px;
+}
 body {
   text-align: center;
   font-family: "Kanit";
@@ -6,11 +9,11 @@ body {
   text-align: right;
   padding: 10px;
   font-size: 20px;
-  background: #57002d;
+  background: #a90057;
   color: white;
 }
 select {
-  background: #57002d;
+  background: #a90057;
   color: white;
   font-size: 16px;
   border: 0;
@@ -32,26 +35,25 @@ img {
     font-family: "Kanit";
 }
 .bio{
-    background-color: #000000;   
+    background-color: #575757;   
 }
 .bio-box{
     font-size: 20px;
     margin: 5px;
 }
 .project{
-    border-top: 10px solid #a90057;
-    background-color: #000000;
+    border-top: 1px solid #ffffff;
+    background-color: #525252;
 }
 .projects-box{
     color: rgb(255, 255, 255);
-    margin: 5px;
-    background-color: #a90057;
+    margin: 10px;
 }
 .projects-box:hover {
     opacity: 0.7;
 }
 footer {
-  background-color: #57002d;
+  background-color: #a90057;
   color: white;
   text-align: center;
   font-family: "Kanit";

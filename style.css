@@ -1,3 +1,12 @@
+.ad{
+  margin: 50px;
+  color: #898989;
+  border: solid 2px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+
+}
 h1{
   margin-bottom: 20px;
 }
@@ -5,6 +14,7 @@ body {
   text-align: center;
   font-family: "Kanit";
   margin: 0%;
+  background-color: rgb(195, 237, 236);
 }
 footer {
   margin-top: 40px;
@@ -25,7 +35,7 @@ footer {
 
 .projects-box{
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 179);
+    background-color: rgb(255, 0, 166);
     display: block;
     margin: auto;
     margin-bottom: 20px;
@@ -58,4 +68,13 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.portfolio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    color: white;
+    background-color: #a90057;
+    font-size: 25px;
 }

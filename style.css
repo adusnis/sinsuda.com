@@ -69,15 +69,16 @@ footer {
 .fa:hover {
   opacity: 0.7;
 }
-a {
-  text-decoration: none;
-}
 .center{
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: rgb(231, 251, 250);
+  padding: 20px;
+  border-color: white;
+  border-radius: 20px;
 }
 .portfolio {
     position: absolute;

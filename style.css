@@ -88,3 +88,7 @@ footer {
     background-color: #a90057;
     font-size: 25px;
 }
+.cert{
+  max-height: 300px;
+  max-width: 500px;
+}

@@ -25,6 +25,13 @@
     />
   </head>
   <body>
+    <div class="dropdown">
+      <button class="dropbtn" id="setlang">ภาษา</button>
+      <div class="dropdown-content">
+        <p onclick="toggleLanguage('English')"><a href="#">English</a></p>
+        <p onclick="toggleLanguage('ไทย')"><a href="#">ไทย</a></p>
+      </div>
+    </div>
     <a class="portfolio" href="https://sinsuda.com/portfolio" target="_blank"
       >Portfolio</a
     >
@@ -37,38 +44,60 @@
         width="200px"
         height="200px"
       />
-      <p class="bio-box">
+      <p class="bio-box" id="description">
         ข้ามีนามว่าสินสุดา รักษ์พอเพียง
       </p>
+</div>
+
+</body>
+<script>
+  function toggleLanguage(language) {
+    let description = document.getElementById("description");
+    let setlang = document.getElementById("setlang");
+    let nthtrans = document.getElementById("nthtrans");
+    let novel = document.getElementById("novel");
+    let blog = document.getElementById("blog");
+    let note = document.getElementById("note");
+    if (language === "ไทย") {
+      description.innerHTML = "ข้ามีนามว่าสินสุดา รักษ์พอเพียง";
+      setlang.innerHTML = "ภาษา";
+      nthtrans.innerHTML = "แปลภาษาเมือง";
+      novel.innerHTML = "บล็อก";
+      blog.innerHTML = "นิยาย";
+      note.innerHTML = "โน้ต";
+    }
+    else {
+      description.innerHTML = "My name is Sinsuda Rakporpiang";
+      setlang.innerHTML = "Language";
+      nthtrans.innerHTML = "NorthernTH-Translator";
+      novel.innerHTML = "Novel";
+      blog.innerHTML = "Blog";
+      note.innerHTML = "Note";
+    }
+    
+  }
+</script>
     </div>
     <div class="box">
-      <span>
-      <a
-        class="projects-box"
-        href="https://northern-thai.onrender.com"
-        target="_blank"
-        >เว็บแปลภาษาเมือง (Beta)</a>
-      <a class="projects-box"
-      href="https://blog.sinsuda.com"
-      target="_blank"
-      >บล็อก</a>
-      <a class="projects-box"
-      href="https://novel.sinsuda.com"
-      target="_blank"
-      >นิยาย</a>
-      <a class="projects-box"
-      href="https://sinsuda.com/note"
-      target="_blank"
-      >โน้ต</a>
-      <span class="projects-box" style="opacity: 100%;">Rickroll
+      <div class="row">
+        <div class="column">
+          <div class="projects-box"><a href="https://northern-thai.onrender.com" target="_blank" id="nthtrans">แปลภาษาเมือง</a></div>
+          <div class="projects-box"><a href="https://blog.sinsuda.com" target="_blank" id="blog">บล็อก</a></div>
+        </div>
+       <div class="column">
+          <div class="projects-box"><a href="https://novel.sinsuda.com" target="_blank" id="novel">นิยาย</a></div>
+          <div class="projects-box"><a href="https://sinsuda.com/note" target="_blank" id="note">โน้ต</a></div>
+       </div>
+    </div>
+      <div class="projects-box" style="opacity: 100%;">Rickroll
       <input type="text" value="https://sinsuda.com/click" id="myInput">
-      <button onclick="myFunction()">Copy</button></span></span>
+      <button onclick="myFunction()">Copy</button></div>
       <script>
-      function myFunction() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value);}
+        function myFunction() {
+          var copyText = document.getElementById("myInput");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999);
+          navigator.clipboard.writeText(copyText.value);}
       </script>
     </div>
   <footer>

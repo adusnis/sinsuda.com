@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="dropdown">
-      <button class="dropbtn" id="setlang">ภาษา</button>
+      <button class="dropbtn" id="setlang">Language</button>
       <div class="dropdown-content">
         <p onclick="toggleLanguage('English')"><a href="#">English</a></p>
         <p onclick="toggleLanguage('ไทย')"><a href="#">ไทย</a></p>
@@ -60,7 +60,6 @@
     let note = document.getElementById("note");
     if (language === "ไทย") {
       description.innerHTML = "ข้ามีนามว่าสินสุดา รักษ์พอเพียง";
-      setlang.innerHTML = "ภาษา";
       nthtrans.innerHTML = "แปลภาษาเมือง";
       novel.innerHTML = "บล็อก";
       blog.innerHTML = "นิยาย";
@@ -68,7 +67,6 @@
     }
     else {
       description.innerHTML = "My name is Sinsuda Rakporpiang";
-      setlang.innerHTML = "Language";
       nthtrans.innerHTML = "NorthernTH-Translator";
       novel.innerHTML = "Novel";
       blog.innerHTML = "Blog";
@@ -89,7 +87,7 @@
           <div class="projects-box"><a href="https://sinsuda.com/note" target="_blank" id="note">โน้ต</a></div>
        </div>
     </div>
-      <div class="projects-box" style="opacity: 100%;">Rickroll<input type="text" value="https://sinsuda.com/click" id="myInput"><button onclick="myFunction()">Copy</button></div>
+      <div class="projects-box" style="opacity: 100%;">Rickroll <input type="text" value="https://sinsuda.com/click" id="myInput"><button onclick="myFunction()">Copy</button></div>
       <script>
         function myFunction() {
           var copyText = document.getElementById("myInput");

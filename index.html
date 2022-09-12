@@ -60,6 +60,13 @@
       <span class="projects-box">Rickroll
       <input type="text" value="https://sinsuda.com/click" id="myInput">
       <button onclick="myFunction()">Copy</button></span>
+      <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);}
+      </script>
     </div>
   <footer>
     <h3>Contact Me</h3>
@@ -79,10 +86,3 @@
       <a style="color: rgb(255, 255, 255)" href="mailto:contact@sinsuda.com" class="link">contact@sinsuda.com</a></p>
   </footer>
 </html>
-<script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(copyText.value);}
-</script>

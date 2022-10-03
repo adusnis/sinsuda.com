@@ -33,17 +33,22 @@
       </div>
     </div>
     <a class="portfolio" href="https://sinsuda.com/portfolio" target="_blank"
-      >Portfolio</a
+    >Portfolio</a
     >
     <div class="box">
       <h1>❤️Hello❤️</h1>
-      <img
-        src="https://i.ibb.co/yXzrGGB/290574221-788590082145463-5859730343302693245-n-1.webp"
-        alt="ArmeiPic"
-        style="border-radius: 50%; border: solid rgb(255, 255, 255) 6px"
-        width="200px"
-        height="200px"
-      />
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <center><model-viewer src="monody.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1"></center>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">
+              View in your space
+          </button>
+          <div id="ar-prompt">
+              <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+          </div>
+      </model-viewer>
       <p class="bio-box" id="description">
         ข้ามีนามว่าสินสุดา รักษ์พอเพียง
       </p>
